@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Education</title>
+    <style>
+        /* Global Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            border-radius: 5px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+            margin: 20px 0 15px;
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        
+        .language-card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .language-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .language-card h3 {
+            color: #333;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #333;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: background 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            background: #333;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            border-radius: 5px;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+            
+            .language-card {
+                padding: 15px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            body {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            .container {
+                padding: 10px;
+            }
+            
+            .language-card {
+                padding: 12px;
+            }
+            
+            .cta-button {
+                padding: 10px 20px;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to Coding Education</h1>
+            <p>Learn the fundamentals of web development and programming</p>
+        </header>
+        
+        <section>
+            <h2>Programming Languages</h2>
+            
+            <div class="language-card">
+                <h3>HTML</h3>
+                <p><strong>HyperText Markup Language</strong> is the standard markup language for creating web pages. It provides the structure of a webpage and is the backbone of all websites.</p>
+                <p>HTML uses elements (tags) to define the content and layout of web pages, such as headings, paragraphs, links, images, and more.</p>
+            </div>
+            
+            <div class="language-card">
+                <h3>CSS</h3>
+                <p><strong>Cascading Style Sheets</strong> is used to style and layout web pages. While HTML provides the structure, CSS controls the visual presentation.</p>
+                <p>CSS allows you to define colors, fonts, spacing, and responsive designs that adapt to different screen sizes.</p>
+            </div>
+            
+            <div class="language-card">
+                <h3>JavaScript</h3>
+                <p><strong>JavaScript</strong> is a programming language that enables interactive web pages. It's a core technology of the web alongside HTML and CSS.</p>
+                <p>JavaScript allows you to create dynamic content, control multimedia, animate images, and handle user interactions.</p>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="cta-button" target="_blank">Learn More</a>
+            </div>
+            
+            <div class="language-card">
+                <h3>Python</h3>
+                <p><strong>Python</strong> is a high-level, general-purpose programming language known for its readability and simplicity.</p>
+                <p>Python is used for web development (Django, Flask), data science, artificial intelligence, automation, and more. It's an excellent language for beginners.</p>
+            </div>
+
+            <div>
+                <a href="https://it127.github.io/Coding-Tags/" class="cta-button" target="_blank">Learn about tags</a>
+            </div>
+        </section>
+        
+        <footer>
+            <p>Start your coding journey today!</p>
+            <p>&copy; 2023 Coding Education. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
